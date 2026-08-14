@@ -5,7 +5,6 @@ import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import StartupProject from "./StartupProjects/StartupProject";
-import Footer from "../components/footer/Footer";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
@@ -56,7 +55,6 @@ const Main = () => {
             <Twitter />
             <Podcast />
             <Profile />
-            <Footer />
             <ScrollToTopButton />
           </>
         )}
